@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="https://inchoo.hr/wp-content/themes/inchoo-hr/favicon.ico">
+    <link rel="stylesheet" href="style.css" />
+    <title>Inchoo shoping cart</title>
+  </head>
+  <body>
+    <button id="cartBtn">
+      <img
+        src="resources/shoppingCart.png"
+        alt="shopping cart"
+        width="50px"
+        height="50px"
+      />
+    </button>
+    <div class="cartDiv" id="container">
+      <h5 id="itemsInCart">My Cart (5 items)</h5>
+      <button class="arrows" id="up">▲</button>
+      <ScrollView id="itemContainer">
+        <div class="itemDiv">
+          <div>
+            <img
+              class="imgLogo"
+              src="resources/bakerDeck.png"
+            />
+          </div>
+          <div>
+            <h3>Baker skate deck 8.0"</h5>
+            <p class="detail">Brand: Baker</p>
+            <p class="detail color">Color: black</p>
+            <h4>PRICE: $399</h4>
+          </div>
+        </div>
+        <div class="itemDiv">
+          <div>
+            <img
+              class="imgLogo"
+              src="resources/elementDeck.jpg"
+            />
+          </div>
+          <div>
+            <h3>Element skate deck 8.0"</h5>
+            <p class="detail">Brand: Element</p>
+            <p class="detail color">Color: dark blue</p>
+            <h4>PRICE: $349</h4>
+          </div>
+        </div>
+        <div class="itemDiv">
+          <div>
+            <img
+              class="imgLogo"
+              src="resources/deathwishDeck.jpg"
+            />
+          </div>
+          <div>
+            <h3>Deathwish skate deck 8.2"</h5>
+            <p class="detail">Brand: Deathwish</p>
+            <p class="detail color">Color: midnight black</p>
+            <h4>PRICE: $299</h4>
+          </div>
+        </div>
+        <div class="itemDiv">
+          <div>
+            <img
+              class="imgLogo"
+              src="resources/realskateboardsDeck.jpg"/>
+            </div>
+            <div>
+              <h3>RealSkateboards skate deck 8.5"</h5>
+              <p class="detail">Brand: Real Skateboards</p>
+              <p class="detail color">Color: wood brown</p>
+              <h4>PRICE: $249</h4>
+            </div>
+        </div>
+        <div class="itemDiv">
+              <div>
+                <img
+                  class="imgLogo"
+                  src="resources/santacruzDeck.jpg"
+                />
+              </div>
+              <div>
+                <h3>SantaCruz skate deck 8.125"</h5>
+                <p class="detail">Brand: SantaCruz</p>
+                <p class="detail color">Color: galaxy blue</p>
+                <h4>PRICE: $279</h4>
+              </div>
+        </div>
+      </ScrollView>
+      <button class="arrows" id="down">▼</button>
+      <div>
+        <button id="editBtn">Edit Cart</button> 
+        <button id="checkoutBtn"><a href="">CHECKOUT</a></button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
